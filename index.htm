@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Command Solana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+    <link href="bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+          <div class="mac-terminal">
+            <div class="header">
+              <div class="header__op">
+                <img src="wikipedia/en/e/ef/Command_prompt_icon_(windows).png" alt="windows console icon">
+              <div class="header__token">Command Solana</div>
+            </div>
+              <div class="tabs">
+                <span class="minimize"></span>
+                        <span class="maximize"></span>
+                        <span class="close"></span>
+              </div>
+            </div>
+            <div class="body">
+              <div class="body__row">
+                <span class="body__row-result">Microsoft Windows [Version 10.0.19045.3570]</span>
+              </div>
+              <div class="body__row">
+                <span class="body__row-result">(c) Microsoft Corporation. All rights reserved.</span>
+              </div>
+              <br>
+              <div class="css-typing">
+              <div class="body__row">
+                <span>C:\Users\Community><span class="typing-animation">generatetoken</span></span>
+              </div>
+              <br>
+              <div class="body__row">
+                <span class="typing-animation">Starting generate token...</span>
+              </div>
+              <br>
+              <div class="body__row">
+                <span class="typing-animation ml-1">Name . . . . . . . . . . . .  : Command Solana Token</span>
+              </div>
+              <div class="body__row">
+                <span class="typing-animation ml-1">Symbol . . . . . . . . . . .  : CMD</span>
+              </div>
+              <div class="body__row">
+                <span class="typing-animation ml-1">Supply . . . . . . . . . . .  : 1.000.000.000</span>
+              </div>
+              <div class="body__row">
+                <span class="typing-animation ml-1">Contract Address . . . . . .  : upadate ...</span>
+              </div>
+              <br>
+
+              <div class="body__row">
+                <span class="typing-animation ml-1">____________________________</span>
+              </div>
+              <br>
+              <div class="body__row">
+                <span class="typing-animation ml-1 ">CMD has no association with Microsoft. This token is simply a meme
+     coin with no intrinsic value or expectation of financial return.
+              </span></div>
+              </div>
+              <div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="container" style="text-align:center;">
+           <span style="color:#3c3b37 ;"><a href="https://x.com/cmdtron">No Twitter</a> ~ <a href="https://t.me/+NazmB7NN6ihkMTg1">No Telegram</a> ~ <a href="https://pump.fun/">Exist Pump<a></a></span>
+          </div>
+        <script>
+const sleep = (ms) => {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+};
+
+// This is an array of html elements, since getElementsByClassName returns an array, since there can be more than one html element with that class.
+const elements = document.getElementsByClassName("typing-animation");
+
+(async (typedElements) => {
+   let texts = []
+
+   for (let element of typedElements){
+    // The property to access the text inside the elements .innerHTML, if its a user interactuable element such as <input> or <textarea> then its .value
+    texts.push(element.innerHTML);
+    element.innerHTML = "";
+   }
+
+   // texts and typedElements has the same length.
+   for (let i = 0; i < texts.length; i++) {
+      for (let character of texts[i]) {
+        typedElements[i].innerHTML += character;
+        await sleep(15)
+      }
+   }
+
+})(elements);
+</script>
+    <script src="main.js"></script>
+  </body>
+</html>
