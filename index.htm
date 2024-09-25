@@ -1,102 +1,138 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Command Solana</title>
+    <title>Selfie French Bulldog On Solana</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
     <link href="bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+      .centered-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 168px; /* 设置宽度 */
+        height: auto; /* 高度自适应 */
+        opacity: 0; /* 初始透明度为0 */
+        transition: opacity 1s ease; /* 设置淡入效果 */
+        border-radius: 15px; /* 圆角 */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* 阴影 */
+        position: relative;
+        z-index: 1; /* 确保图片在上层 */
+      }
+
+      .centered-image::before {
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        right: -5px;
+        bottom: -5px;
+        background: linear-gradient(45deg, #ff007f, #00ff7f); /* 渐变边框 */
+        border-radius: 15px; /* 圆角 */
+        z-index: -1; /* 使背景在下层 */
+      }
+
+      .show {
+        opacity: 1; /* 透明度为1，显示图片 */
+      }
+
+    </style>
   </head>
   <body>
     <div class="container">
-          <div class="mac-terminal">
-            <div class="header">
-              <div class="header__op">
-                <img src="wikipedia/en/e/ef/Command_prompt_icon_(windows).png" alt="windows console icon">
-              <div class="header__token">Command Solana</div>
-            </div>
-              <div class="tabs">
-                <span class="minimize"></span>
-                        <span class="maximize"></span>
-                        <span class="close"></span>
-              </div>
-            </div>
-            <div class="body">
-              <div class="body__row">
-                <span class="body__row-result">Microsoft Windows [Version 10.0.19045.3570]</span>
-              </div>
-              <div class="body__row">
-                <span class="body__row-result">(c) Microsoft Corporation. All rights reserved.</span>
-              </div>
-              <br>
-              <div class="css-typing">
-              <div class="body__row">
-                <span>C:\Users\Community><span class="typing-animation">generatetoken</span></span>
-              </div>
-              <br>
-              <div class="body__row">
-                <span class="typing-animation">Starting generate token...</span>
-              </div>
-              <br>
-              <div class="body__row">
-                <span class="typing-animation ml-1">Name . . . . . . . . . . . .  : Command Solana Token</span>
-              </div>
-              <div class="body__row">
-                <span class="typing-animation ml-1">Symbol . . . . . . . . . . .  : CMD</span>
-              </div>
-              <div class="body__row">
-                <span class="typing-animation ml-1">Supply . . . . . . . . . . .  : 1.000.000.000</span>
-              </div>
-              <div class="body__row">
-                <span class="typing-animation ml-1">Contract Address . . . . . .  : upadate ...</span>
-              </div>
-              <br>
-
-              <div class="body__row">
-                <span class="typing-animation ml-1">____________________________</span>
-              </div>
-              <br>
-              <div class="body__row">
-                <span class="typing-animation ml-1 ">CMD has no association with Microsoft. This token is simply a meme
-     coin with no intrinsic value or expectation of financial return.
-              </span></div>
-              </div>
-              <div>
-
-              </div>
-            </div>
-
+      <div class="mac-terminal">
+        <div class="header">
+          <div class="header__op">
+            <img src="wikipedia/en/e/ef/Command_prompt_icon_(windows).png" alt="windows console icon">
+            <div class="header__token">Exist Solana</div>
+          </div>
+          <div class="tabs">
+            <span class="minimize"></span>
+            <span class="maximize"></span>
+            <span class="close"></span>
           </div>
         </div>
-        <div class="container" style="text-align:center;">
-           <span style="color:#3c3b37 ;"><a href="https://x.com/cmdtron">No Twitter</a> ~ <a href="https://t.me/+NazmB7NN6ihkMTg1">No Telegram</a> ~ <a href="https://pump.fun/">Exist Pump<a></a></span>
+        <div class="body">
+          <div class="body__row">
+            <span class="body__row-result">Microsoft Windows [Version 10.0.19045.3570]</span>
           </div>
-        <script>
-const sleep = (ms) => {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-};
+          <div class="body__row">
+            <span class="body__row-result" style="color: #00ff7f;">(c) Microsoft Corporation. All rights reserved.</span>
+          </div>
+          <br>
+          <div class="css-typing">
+            <div class="body__row">
+              <span>C:\Users\Community><span class="typing-animation">generatetoken</span></span>
+            </div>
+            <br>
+            <div class="body__row">
+              <span class="typing-animation">Starting generate token...</span>
+            </div>
+            <br>
+            <div class="body__row">
+              <span class="typing-animation ml-1">Name . . . . . . . . . . . .  : Selfie French Bulldog</span>
+            </div>
+            <div class="body__row">
+              <span class="typing-animation ml-1">Symbol . . . . . . . . . . .  : SFB</span>
+            </div>
+            <div class="body__row">
+              <span class="typing-animation ml-1">Supply . . . . . . . . . . .  : 1.000.000.000</span>
+            </div>
+            <div class="body__row">
+              <span class="typing-animation ml-1">Contract Address . . . . . .  : upadate ...</span>
+            </div>
+            <br>
+            <div class="body__row">
+              <span class="typing-animation ml-1">____________________________</span>
+            </div>
+            <br>
+            <div class="body__row">
+              <span class="typing-animation ml-1">SFB has no association with Microsoft. This token is simply a meme coin with no intrinsic value or expectation of financial return.</span>
+            </div>
+            <br>
+            <!-- 添加居中图片，初始隐藏 -->
+            <div class="body__row">
+              <img src="file:///C:/Downloaded%20Web%20Sites/cmdtoken.meme/img/12345.png" alt="CMD Meme Coin Image" class="centered-image" id="cmdImage" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="text-align:center;">
+      <span style="color:#3c3b37;">
+        <a href="https://x.com/">Tweet</a> ~ 
+        <a href="https://t.me/">Telegram</a> ~ 
+        <a href="https://pump.fun/">Exist Pump</a>
+      </span>
+    </div>
+    <script>
+      const sleep = (ms) => {
+        return new Promise((resolve) => setTimeout(resolve, ms));
+      };
 
-// This is an array of html elements, since getElementsByClassName returns an array, since there can be more than one html element with that class.
-const elements = document.getElementsByClassName("typing-animation");
+      const elements = document.getElementsByClassName("typing-animation");
 
-(async (typedElements) => {
-   let texts = []
+      (async (typedElements) => {
+        let texts = []
 
-   for (let element of typedElements){
-    // The property to access the text inside the elements .innerHTML, if its a user interactuable element such as <input> or <textarea> then its .value
-    texts.push(element.innerHTML);
-    element.innerHTML = "";
-   }
+        for (let element of typedElements){
+          texts.push(element.innerHTML);
+          element.innerHTML = "";
+        }
 
-   // texts and typedElements has the same length.
-   for (let i = 0; i < texts.length; i++) {
-      for (let character of texts[i]) {
-        typedElements[i].innerHTML += character;
-        await sleep(15)
-      }
-   }
+        for (let i = 0; i < texts.length; i++) {
+          for (let character of texts[i]) {
+            typedElements[i].innerHTML += character;
+            await sleep(15)
+          }
+        }
 
-})(elements);
-</script>
+        // 在最后一行文字后显示图片并添加淡入效果
+        const cmdImage = document.getElementById("cmdImage");
+        cmdImage.classList.add("show"); // 添加 show 类以触发淡入效果
+
+      })(elements);
+    </script>
     <script src="main.js"></script>
   </body>
 </html>
